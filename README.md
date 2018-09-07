@@ -29,3 +29,7 @@ docker run --rm --tty taherbs/ab -kl -t 60 -n 10 -c 10 http://www.yahoo.com/
 docker inspect CONTAINER_NAME -f "{{json .NetworkSettings.Networks }}" # Get the network interface name
 docker run --network=WEB_CONTAINER_DOCKER_NETWORK_NAME --rm --tty taherbs/ab -kl -t 60 -n 10 -c 10 http://CONTAINER_NAME/
 ```
+
+### Useful Articles
+* [Load Testing Apache with AB](https://www.devside.net/wamp-server/load-testing-apache-with-ab-apache-bench)
+* [Testing the NGINX Load Balancing Efficiency with ApacheBench](https://jelastic.com/blog/testing-nginx-load-balancing-efficiency-apachebench/)
