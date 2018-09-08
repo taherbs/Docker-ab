@@ -7,17 +7,17 @@ Docker container for ApacheBench (ab).
 
 ### Usage:
 
-* Build the container
+* Build container
 ```bash
 docker build -t taherbs/ab:latest .
 ```
 
-* Ab help
+* Ab "man"
 ```bash
 docker run --rm --tty taherbs/ab --help
 ```
 
-* Run ab on public website
+* Run ab on a public website
 ```bash
 # docker run --rm --tty CONTAINER_NAME -kl -t TIME_OUT -n NUMBER_OF_REQUESTS -c NUMBER_OF_CONCURRENCY WEB_SERVER_URL
 docker run --rm --tty taherbs/ab -kl -t 60 -n 10 -c 10 http://www.yahoo.com/
