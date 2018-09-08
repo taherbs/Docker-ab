@@ -12,7 +12,7 @@ Docker container for ApacheBench (ab).
 docker build -t taherbs/ab:latest .
 ```
 
-* Ab "man"
+* Ab help doc
 ```bash
 docker run --rm --tty taherbs/ab --help
 ```
