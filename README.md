@@ -1,4 +1,5 @@
 ## ApacheBench - Docker
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/taherbs/Docker-ap/master/LICENSE)
 
 Docker container for ApacheBench (ab).
 
